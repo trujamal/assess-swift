@@ -12,13 +12,12 @@ import ARKit
 
 class ARController: UIViewController, ARSCNViewDelegate {
 
-    @IBOutlet weak var discView: UIView!
+   
     @IBOutlet weak var discButton: UIButton!
     
-    @IBOutlet weak var moreView: UIView!
+    
     @IBOutlet weak var moreButton: UIButton!
     
-    @IBOutlet weak var camView: UIView!
     
     @IBOutlet weak var camButton: UIButton!
     
@@ -27,27 +26,9 @@ class ARController: UIViewController, ARSCNViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
         
-        discView.layer.cornerRadius = discView.bounds.size.height/2
-        discView.clipsToBounds = true
-        
-        discButton.layer.cornerRadius = discButton.bounds.size.height/2
-        discButton.clipsToBounds = true
-        
-        
-        moreView.layer.cornerRadius = moreView.bounds.size.height/2
-        moreView.clipsToBounds = true
-        
-        moreButton.layer.cornerRadius = moreButton.bounds.size.height/2
-        moreButton.clipsToBounds = true
-        
-        camView.layer.cornerRadius = camView.bounds.size.height/2
-        camView.clipsToBounds = true
-        
-        camButton.layer.cornerRadius = camButton.bounds.size.height/2
-        camButton.clipsToBounds = true
-        camButton.isEnabled = false
-        
+       
         // Set the view's delegate
         sceneView.delegate = self
         
@@ -143,7 +124,6 @@ extension UITabBarController {
         along transitionCoordinator: UIViewControllerTransitionCoordinator? = nil
         ) {
         guard isTabBarHidden != hidden else { return }
-        
         let offsetY = hidden ? tabBar.frame.height : -tabBar.frame.height
         let endFrame = tabBar.frame.offsetBy(dx: 0, dy: offsetY)
         let vc: UIViewController? = viewControllers?[selectedIndex]

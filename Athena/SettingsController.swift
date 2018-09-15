@@ -11,18 +11,23 @@ import UserNotifications
 
 class SettingsController: UIViewController {
     
+    
+    
+    @IBOutlet weak var goBackButton: UIButton!
+    
     @IBOutlet weak var headerLabel: UILabel!
     @IBOutlet weak var mainScroll: UIScrollView!
     
     
     override func viewDidLoad(){
         super.viewDidLoad()
-    
-  
         
     }
     
     
+    @IBAction func backPressed(_ sender: Any) {
+        performSegue(withIdentifier: "setToHome", sender: self)
+    }
     
     
     

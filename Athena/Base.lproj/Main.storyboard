@@ -23,57 +23,37 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                             </arscnView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Q1-AH-g9n">
-                                <rect key="frame" x="54" y="737" width="50" height="50"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QVf-tg-Gf4">
+                                <rect key="frame" x="0.0" y="723" width="25" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vV-5g-IgC">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <state key="normal" title="Discover">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="discPressed:" destination="0Mg-1B-b5q" eventType="touchUpInside" id="2Jo-lU-LxQ"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="98c-zT-5b3">
-                                <rect key="frame" x="274" y="737" width="50" height="50"/>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vV-5g-IgC">
+                                <rect key="frame" x="65" y="753" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbh-L6-k2r">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <state key="normal" title="More">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="moreClicked:" destination="0Mg-1B-b5q" eventType="touchUpInside" id="hEr-Fw-hND"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CDU-Zf-Hcj">
-                                <rect key="frame" x="162" y="737" width="50" height="50"/>
+                                <state key="normal" image="Tab-Bar-Discover-Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="discPressed:" destination="0Mg-1B-b5q" eventType="touchUpInside" id="2Jo-lU-LxQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbh-L6-k2r">
+                                <rect key="frame" x="282" y="753" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5XH-jd-lVn">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <state key="normal" title="Camera">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            </view>
+                                <state key="normal" image="Tab-Bar-More-Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="moreClicked:" destination="0Mg-1B-b5q" eventType="touchUpInside" id="hEr-Fw-hND"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5XH-jd-lVn">
+                                <rect key="frame" x="172" y="753" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Tab-Bar-Camera-Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
@@ -86,11 +66,8 @@
                     <connections>
                         <outlet property="backRecognizer" destination="t37-c3-NNp" id="oxf-at-ghu"/>
                         <outlet property="camButton" destination="5XH-jd-lVn" id="HBS-kp-rty"/>
-                        <outlet property="camView" destination="CDU-Zf-Hcj" id="e2p-6i-z4j"/>
                         <outlet property="discButton" destination="9vV-5g-IgC" id="mgT-CK-rgo"/>
-                        <outlet property="discView" destination="2Q1-AH-g9n" id="IUa-8N-ZDM"/>
                         <outlet property="moreButton" destination="Jbh-L6-k2r" id="14V-Sr-Qv4"/>
-                        <outlet property="moreView" destination="98c-zT-5b3" id="M80-Ww-b8T"/>
                         <outlet property="sceneView" destination="fOz-tT-Q3l" id="Y6V-sG-GgM"/>
                         <segue destination="ekg-9G-bij" kind="presentation" identifier="camToDisc" modalTransitionStyle="crossDissolve" id="1yY-3B-C1R"/>
                         <segue destination="DPJ-wt-teW" kind="show" identifier="homeToMore" id="j3k-9w-K2U"/>
@@ -129,6 +106,14 @@
                                     <state key="normal" backgroundImage="back-button"/>
                                     <connections>
                                         <action selector="backPressed:" destination="ekg-9G-bij" eventType="touchUpInside" id="Ufa-0D-Ifl"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HED-Wq-lvn">
+                                    <rect key="frame" x="37" y="20" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Button" image="back-button"/>
+                                    <connections>
+                                        <action selector="backPressed:" destination="ekg-9G-bij" eventType="touchUpInside" id="phI-X3-4YD"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -186,7 +171,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="48U-VW-dV3"/>
                     <connections>
-                        <outlet property="backButton" destination="db5-Yd-18w" id="EQL-iC-Nhm"/>
+                        <outlet property="backButton" destination="HED-Wq-lvn" id="hGg-ow-dkZ"/>
                         <segue destination="0Mg-1B-b5q" kind="presentation" identifier="rootHome" modalTransitionStyle="crossDissolve" id="75W-XB-UEK"/>
                     </connections>
                 </tableViewController>
@@ -217,6 +202,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbn-bg-ckm">
+                                        <rect key="frame" x="37" y="20" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="back-button"/>
+                                        <connections>
+                                            <action selector="backPressed:" destination="DPJ-wt-teW" eventType="touchUpInside" id="W98-gF-sGh"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -225,16 +218,24 @@
                         <viewLayoutGuide key="safeArea" id="5li-1g-svy"/>
                     </view>
                     <connections>
+                        <outlet property="goBackButton" destination="hbn-bg-ckm" id="ZHH-R0-LGy"/>
                         <outlet property="headerLabel" destination="pyF-Gm-5ag" id="VsF-yQ-Hz6"/>
                         <outlet property="mainScroll" destination="06W-Mz-Xfz" id="KRO-xK-nRC"/>
+                        <segue destination="0Mg-1B-b5q" kind="presentation" identifier="setToHome" modalTransitionStyle="crossDissolve" id="KAM-Q6-Dhm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R8f-eI-p1h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="433" y="-1882"/>
+            <point key="canvasLocation" x="432.80000000000001" y="-1882.0197044334975"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Tab-Bar-Camera-Button" width="25" height="25"/>
+        <image name="Tab-Bar-Discover-Button" width="25" height="25"/>
+        <image name="Tab-Bar-More-Button" width="25" height="25"/>
         <image name="back-button" width="32" height="32"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="KAM-Q6-Dhm"/>
+    </inferredMetricsTieBreakers>
 </document>
