@@ -9,11 +9,12 @@
 import UIKit
 
 func generateRandomData() -> [[UIColor]] {
-    let numberOfRows = 20
-    let numberOfItemsPerRow = 15
+    let numberOfRows = 10
+    let numberOfItemsPerRow = 5
     
     return (0..<numberOfRows).map { _ in
         return (0..<numberOfItemsPerRow).map { _ in UIColor.randomColor() }
+        
     }
 }
 

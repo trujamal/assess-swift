@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 class DiscoverController: UITableViewController{
+    @IBOutlet weak var backButton: UIButton!
     
     @IBOutlet var swipeBack: UISwipeGestureRecognizer!
     
@@ -19,6 +20,12 @@ class DiscoverController: UITableViewController{
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return model.count
     }
+    
+    
+    @IBAction func backPressed(_ sender: Any) {
+    performSegue(withIdentifier: "rootHome", sender: self)
+    }
+    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -53,7 +60,8 @@ extension DiscoverController: UICollectionViewDelegate, UICollectionViewDataSour
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
         
         cell.backgroundColor = model[collectionView.tag][indexPath.item]
-        
+        cell.layer.cornerRadius = cell.bounds.size.height/8
+        cell.clipsToBounds = true
         return cell
     }
     

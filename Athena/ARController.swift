@@ -46,6 +46,7 @@ class ARController: UIViewController, ARSCNViewDelegate {
         
         camButton.layer.cornerRadius = camButton.bounds.size.height/2
         camButton.clipsToBounds = true
+        camButton.isEnabled = false
         
         // Set the view's delegate
         sceneView.delegate = self
@@ -70,6 +71,10 @@ class ARController: UIViewController, ARSCNViewDelegate {
     
     @IBAction func discPressed(_ sender: Any) {
         performSegue(withIdentifier: "camToDisc", sender: self)
+        
+    }
+    @IBAction func moreClicked(_ sender: Any) {
+        performSegue(withIdentifier: "homeToMore", sender: self)
         
     }
     
