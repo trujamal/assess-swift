@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3FE53080214CB80800DF3BAB /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5307F214CB80800DF3BAB /* HomeController.swift */; };
 		3FE530A0214CCE4B00DF3BAB /* DiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5309F214CCE4B00DF3BAB /* DiscoverController.swift */; };
+		3FE530A2214CD79B00DF3BAB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE530A1214CD79B00DF3BAB /* Helpers.swift */; };
+		3FE530A4214CD7FB00DF3BAB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE530A3214CD7FB00DF3BAB /* TableViewCell.swift */; };
 		62F9DD2F49EFB4B8F1058926 /* Pods_AthenaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D506C87ED294023402F23FA /* Pods_AthenaUITests.framework */; };
 		A260D36332E7184D5B664F9B /* Pods_AthenaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694A8580331A4B506A39E192 /* Pods_AthenaTests.framework */; };
 		A5EB2C87214CB168006AF614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB2C86214CB168006AF614 /* AppDelegate.swift */; };
@@ -45,6 +47,8 @@
 		3C4CF29C55AB3E7E012547FA /* Pods-Athena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Athena.release.xcconfig"; path = "Pods/Target Support Files/Pods-Athena/Pods-Athena.release.xcconfig"; sourceTree = "<group>"; };
 		3FE5307F214CB80800DF3BAB /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		3FE5309F214CCE4B00DF3BAB /* DiscoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverController.swift; sourceTree = "<group>"; };
+		3FE530A1214CD79B00DF3BAB /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		3FE530A3214CD7FB00DF3BAB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		562688504CE2D98DA116A05C /* Pods-Athena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Athena.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Athena/Pods-Athena.debug.xcconfig"; sourceTree = "<group>"; };
 		694A8580331A4B506A39E192 /* Pods_AthenaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AthenaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D506C87ED294023402F23FA /* Pods_AthenaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AthenaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +141,8 @@
 				A5EB2C88214CB168006AF614 /* art.scnassets */,
 				A5EB2C8A214CB168006AF614 /* ARController.swift */,
 				A5EB2C8C214CB168006AF614 /* Main.storyboard */,
+				3FE530A3214CD7FB00DF3BAB /* TableViewCell.swift */,
+				3FE530A1214CD79B00DF3BAB /* Helpers.swift */,
 				3FE5309F214CCE4B00DF3BAB /* DiscoverController.swift */,
 				A5EB2C8F214CB16A006AF614 /* Assets.xcassets */,
 				A5EB2C91214CB16A006AF614 /* LaunchScreen.storyboard */,
@@ -392,6 +398,8 @@
 				A5EB2C8B214CB168006AF614 /* ARController.swift in Sources */,
 				A5EB2C87214CB168006AF614 /* AppDelegate.swift in Sources */,
 				3FE530A0214CCE4B00DF3BAB /* DiscoverController.swift in Sources */,
+				3FE530A4214CD7FB00DF3BAB /* TableViewCell.swift in Sources */,
+				3FE530A2214CD79B00DF3BAB /* Helpers.swift in Sources */,
 				3FE53080214CB80800DF3BAB /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
