@@ -11,7 +11,8 @@ import UIKit
 
 class DiscoverController: UITableViewController{
     
- 
+    @IBOutlet var swipeBack: UISwipeGestureRecognizer!
+    
     let model = generateRandomData()
     var storedOffsets = [Int: CGFloat]()
     
@@ -33,6 +34,7 @@ class DiscoverController: UITableViewController{
         tableViewCell.setCollectionViewDataSourceDelegate(self, forRow: indexPath.row)
         tableViewCell.collectionViewOffset = storedOffsets[indexPath.row] ?? 0
     }
+    
     
     override func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         

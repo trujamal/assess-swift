@@ -173,6 +173,7 @@
                                         </collectionView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <gestureRecognizers/>
                                 <connections>
                                     <outlet property="collectionView" destination="GLR-C5-irH" id="RQ8-Fs-B1D"/>
                                 </connections>
@@ -184,10 +185,16 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="48U-VW-dV3"/>
+                    <connections>
+                        <segue destination="dh0-8o-68w" kind="show" identifier="discoverToHome" id="X8Y-IR-4gB"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K2y-MI-gft" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-180" y="-455.17241379310349"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="X8Y-IR-4gB"/>
+    </inferredMetricsTieBreakers>
 </document>
