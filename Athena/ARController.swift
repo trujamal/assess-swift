@@ -10,7 +10,7 @@ import UIKit
 import SceneKit
 import ARKit
 
-class ViewController: UIViewController, ARSCNViewDelegate {
+class ARController: UIViewController, ARSCNViewDelegate {
 
     
     @IBOutlet var backRecognizer: UISwipeGestureRecognizer!
@@ -18,6 +18,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
         // Set the view's delegate
         sceneView.delegate = self
