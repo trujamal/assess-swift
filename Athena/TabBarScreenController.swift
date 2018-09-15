@@ -9,9 +9,11 @@
 import Foundation
 import UIKit
 
-class TabBarScreenController: UITabBarController {
+class TabBarScreenController: UIViewController {
 
-  
+    @IBOutlet weak var camView: UIView!
+    
+    @IBOutlet weak var camButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,10 @@ class TabBarScreenController: UITabBarController {
         
     }
     
+    @IBAction func camPressed(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: "toCam", sender: self)
+    }
     
     
     
