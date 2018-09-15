@@ -54,6 +54,11 @@ class HomeController: UIViewController {
     }
     
     
+    @IBAction func discoverPressed(_ sender: Any) {
+        self.performSegue(withIdentifier: "toDiscover", sender: self)
+        
+    }
+    
    
     
     
