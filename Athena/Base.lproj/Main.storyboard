@@ -125,7 +125,11 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db5-Yd-18w">
+<<<<<<< HEAD
                                     <rect key="frame" x="29" y="20" width="30" height="30"/>
+=======
+                                    <rect key="frame" x="26" y="15" width="40" height="40"/>
+>>>>>>> origin/master
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" backgroundImage="back-button"/>
                                     <connections>
