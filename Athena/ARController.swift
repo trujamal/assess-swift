@@ -15,6 +15,13 @@ class ARController: UIViewController, ARSCNViewDelegate {
     @IBOutlet weak var discView: UIView!
     @IBOutlet weak var discButton: UIButton!
     
+    @IBOutlet weak var moreView: UIView!
+    @IBOutlet weak var moreButton: UIButton!
+    
+    @IBOutlet weak var camView: UIView!
+    
+    @IBOutlet weak var camButton: UIButton!
+    
     @IBOutlet var backRecognizer: UISwipeGestureRecognizer!
     @IBOutlet var sceneView: ARSCNView!
     
@@ -27,6 +34,18 @@ class ARController: UIViewController, ARSCNViewDelegate {
         discButton.layer.cornerRadius = discButton.bounds.size.height/2
         discButton.clipsToBounds = true
         
+        
+        moreView.layer.cornerRadius = moreView.bounds.size.height/2
+        moreView.clipsToBounds = true
+        
+        moreButton.layer.cornerRadius = moreButton.bounds.size.height/2
+        moreButton.clipsToBounds = true
+        
+        camView.layer.cornerRadius = camView.bounds.size.height/2
+        camView.clipsToBounds = true
+        
+        camButton.layer.cornerRadius = camButton.bounds.size.height/2
+        camButton.clipsToBounds = true
         
         // Set the view's delegate
         sceneView.delegate = self
@@ -46,7 +65,7 @@ class ARController: UIViewController, ARSCNViewDelegate {
     
     
     @IBAction func backSwiped(_ sender: Any) {
-        performSegue(withIdentifier: "camToHome", sender: self)
+        performSegue(withIdentifier: "camToDisc", sender: self)
     }
     
     @IBAction func discPressed(_ sender: Any) {

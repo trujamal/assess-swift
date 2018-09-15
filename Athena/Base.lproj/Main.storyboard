@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dh0-8o-68w">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Mg-1B-b5q">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,85 +10,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home Controller-->
-        <scene sceneID="NVX-cL-ukY">
-            <objects>
-                <viewController id="dh0-8o-68w" customClass="HomeController" customModule="Athena" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="irm-UX-zBR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wbt-ZC-f0c">
-                                <rect key="frame" x="45" y="703" width="75" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbC-bs-Shx">
-                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <state key="normal" title="Button">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="camPressed:" destination="dh0-8o-68w" eventType="touchUpInside" id="wZ5-MS-NQr"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LDv-YH-pGD">
-                                <rect key="frame" x="150" y="703" width="75" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLz-dY-Bmn">
-                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <state key="normal" title="Button">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="discoverPressed:" destination="dh0-8o-68w" eventType="touchUpInside" id="119-5A-yld"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6NF-n7-nfF">
-                                <rect key="frame" x="255" y="703" width="75" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UnM-NT-lYZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <state key="normal" title="Button">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="LVr-2E-J8l"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="WXO-Fh-cQl"/>
-                    <connections>
-                        <outlet property="camButton" destination="VbC-bs-Shx" id="HmO-tG-rZU"/>
-                        <outlet property="camView" destination="wbt-ZC-f0c" id="5xI-vx-SS5"/>
-                        <outlet property="discoverButton" destination="rLz-dY-Bmn" id="UkB-wB-Lnj"/>
-                        <outlet property="discoverView" destination="LDv-YH-pGD" id="HP0-zW-n6Q"/>
-                        <outlet property="moreButton" destination="UnM-NT-lYZ" id="ht3-Ig-KPS"/>
-                        <outlet property="moreView" destination="6NF-n7-nfF" id="YJ2-7c-fB4"/>
-                        <segue destination="0Mg-1B-b5q" kind="show" identifier="toCam" id="iwk-ag-ewY"/>
-                        <segue destination="ekg-9G-bij" kind="show" identifier="toDiscover" id="Wd5-sv-qET"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VAu-yq-fXE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1298" y="-483"/>
-        </scene>
         <!--Item 1-->
         <scene sceneID="1zD-Lc-7Tr">
             <objects>
@@ -103,7 +24,7 @@
                                 <gestureRecognizers/>
                             </arscnView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Q1-AH-g9n">
-                                <rect key="frame" x="291" y="737" width="50" height="50"/>
+                                <rect key="frame" x="54" y="737" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vV-5g-IgC">
@@ -120,6 +41,36 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="98c-zT-5b3">
+                                <rect key="frame" x="274" y="737" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbh-L6-k2r">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="More">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CDU-Zf-Hcj">
+                                <rect key="frame" x="162" y="737" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5XH-jd-lVn">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="Camera">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
@@ -131,21 +82,24 @@
                     <tabBarItem key="tabBarItem" title="Item 1" id="B5f-jK-aBN"/>
                     <connections>
                         <outlet property="backRecognizer" destination="t37-c3-NNp" id="oxf-at-ghu"/>
+                        <outlet property="camButton" destination="5XH-jd-lVn" id="HBS-kp-rty"/>
+                        <outlet property="camView" destination="CDU-Zf-Hcj" id="e2p-6i-z4j"/>
                         <outlet property="discButton" destination="9vV-5g-IgC" id="mgT-CK-rgo"/>
                         <outlet property="discView" destination="2Q1-AH-g9n" id="IUa-8N-ZDM"/>
+                        <outlet property="moreButton" destination="Jbh-L6-k2r" id="14V-Sr-Qv4"/>
+                        <outlet property="moreView" destination="98c-zT-5b3" id="M80-Ww-b8T"/>
                         <outlet property="sceneView" destination="fOz-tT-Q3l" id="Y6V-sG-GgM"/>
-                        <segue destination="dh0-8o-68w" kind="presentation" identifier="camToHome" modalTransitionStyle="crossDissolve" id="FKo-9E-0r8"/>
                         <segue destination="ekg-9G-bij" kind="presentation" identifier="camToDisc" modalTransitionStyle="crossDissolve" id="1yY-3B-C1R"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4aN-xP-FPB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="left" id="t37-c3-NNp">
+                <swipeGestureRecognizer direction="right" id="t37-c3-NNp">
                     <connections>
                         <action selector="backSwiped:" destination="0Mg-1B-b5q" id="8Wr-PF-nRJ"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-327" y="-1214"/>
+            <point key="canvasLocation" x="-327.19999999999999" y="-1214.039408866995"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="qXg-0r-yAR">
@@ -220,17 +174,10 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="48U-VW-dV3"/>
-                    <connections>
-                        <segue destination="dh0-8o-68w" kind="show" identifier="discoverToHome" id="X8Y-IR-4gB"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K2y-MI-gft" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-180" y="-455.17241379310349"/>
+            <point key="canvasLocation" x="482" y="-1214"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="1yY-3B-C1R"/>
-        <segue reference="X8Y-IR-4gB"/>
-    </inferredMetricsTieBreakers>
 </document>
