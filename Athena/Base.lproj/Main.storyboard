@@ -102,6 +102,24 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                             </arscnView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Q1-AH-g9n">
+                                <rect key="frame" x="291" y="737" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vV-5g-IgC">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="Discover">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="discPressed:" destination="0Mg-1B-b5q" eventType="touchUpInside" id="2Jo-lU-LxQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
@@ -113,8 +131,11 @@
                     <tabBarItem key="tabBarItem" title="Item 1" id="B5f-jK-aBN"/>
                     <connections>
                         <outlet property="backRecognizer" destination="t37-c3-NNp" id="oxf-at-ghu"/>
+                        <outlet property="discButton" destination="9vV-5g-IgC" id="mgT-CK-rgo"/>
+                        <outlet property="discView" destination="2Q1-AH-g9n" id="IUa-8N-ZDM"/>
                         <outlet property="sceneView" destination="fOz-tT-Q3l" id="Y6V-sG-GgM"/>
                         <segue destination="dh0-8o-68w" kind="presentation" identifier="camToHome" modalTransitionStyle="crossDissolve" id="FKo-9E-0r8"/>
+                        <segue destination="ekg-9G-bij" kind="presentation" identifier="camToDisc" modalTransitionStyle="crossDissolve" id="1yY-3B-C1R"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4aN-xP-FPB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -209,6 +230,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="1yY-3B-C1R"/>
         <segue reference="X8Y-IR-4gB"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -12,6 +12,8 @@ import ARKit
 
 class ARController: UIViewController, ARSCNViewDelegate {
 
+    @IBOutlet weak var discView: UIView!
+    @IBOutlet weak var discButton: UIButton!
     
     @IBOutlet var backRecognizer: UISwipeGestureRecognizer!
     @IBOutlet var sceneView: ARSCNView!
@@ -19,6 +21,11 @@ class ARController: UIViewController, ARSCNViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        discView.layer.cornerRadius = discView.bounds.size.height/2
+        discView.clipsToBounds = true
+        
+        discButton.layer.cornerRadius = discButton.bounds.size.height/2
+        discButton.clipsToBounds = true
         
         
         // Set the view's delegate
@@ -42,6 +49,10 @@ class ARController: UIViewController, ARSCNViewDelegate {
         performSegue(withIdentifier: "camToHome", sender: self)
     }
     
+    @IBAction func discPressed(_ sender: Any) {
+        performSegue(withIdentifier: "camToDisc", sender: self)
+        
+    }
     
     
     override func viewWillAppear(_ animated: Bool) {

@@ -3,7 +3,7 @@
 //  Athena
 //
 //  Created by Aalap Patel on 9/15/18.
-//  Copyright © 2018 Jamal Rasool. All rights reserved.
+//  Copyright © 2018 Aalap Patel. All rights reserved.
 //
 
 import UIKit
