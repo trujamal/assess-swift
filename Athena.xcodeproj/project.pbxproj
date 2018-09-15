@@ -14,6 +14,11 @@
 		3FE530B0214D266400DF3BAB /* backicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE530AF214D266400DF3BAB /* backicon.png */; };
 		62F9DD2F49EFB4B8F1058926 /* Pods_AthenaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D506C87ED294023402F23FA /* Pods_AthenaUITests.framework */; };
 		A260D36332E7184D5B664F9B /* Pods_AthenaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694A8580331A4B506A39E192 /* Pods_AthenaTests.framework */; };
+		A511C9A5214D276F004FE4B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511C9A0214D276E004FE4B8 /* ViewController.swift */; };
+		A511C9A6214D276F004FE4B8 /* ClassObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511C9A1214D276E004FE4B8 /* ClassObjects.swift */; };
+		A511C9A7214D276F004FE4B8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511C9A2214D276F004FE4B8 /* HomeController.swift */; };
+		A511C9A8214D276F004FE4B8 /* CardView.sks in Resources */ = {isa = PBXBuildFile; fileRef = A511C9A3214D276F004FE4B8 /* CardView.sks */; };
+		A511C9A9214D276F004FE4B8 /* TabBarScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511C9A4214D276F004FE4B8 /* TabBarScreenController.swift */; };
 		A5EB2C87214CB168006AF614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB2C86214CB168006AF614 /* AppDelegate.swift */; };
 		A5EB2C89214CB168006AF614 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EB2C88214CB168006AF614 /* art.scnassets */; };
 		A5EB2C8B214CB168006AF614 /* ARController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB2C8A214CB168006AF614 /* ARController.swift */; };
@@ -54,6 +59,11 @@
 		562688504CE2D98DA116A05C /* Pods-Athena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Athena.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Athena/Pods-Athena.debug.xcconfig"; sourceTree = "<group>"; };
 		694A8580331A4B506A39E192 /* Pods_AthenaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AthenaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D506C87ED294023402F23FA /* Pods_AthenaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AthenaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A511C9A0214D276E004FE4B8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A511C9A1214D276E004FE4B8 /* ClassObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassObjects.swift; sourceTree = "<group>"; };
+		A511C9A2214D276F004FE4B8 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		A511C9A3214D276F004FE4B8 /* CardView.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CardView.sks; sourceTree = "<group>"; };
+		A511C9A4214D276F004FE4B8 /* TabBarScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarScreenController.swift; sourceTree = "<group>"; };
 		A5EB2C83214CB168006AF614 /* Athena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Athena.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EB2C86214CB168006AF614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5EB2C88214CB168006AF614 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -147,6 +157,11 @@
 				3FE530A3214CD7FB00DF3BAB /* TableViewCell.swift */,
 				3FE530A1214CD79B00DF3BAB /* Helpers.swift */,
 				3FE5309F214CCE4B00DF3BAB /* DiscoverController.swift */,
+				A511C9A3214D276F004FE4B8 /* CardView.sks */,
+				A511C9A1214D276E004FE4B8 /* ClassObjects.swift */,
+				A511C9A2214D276F004FE4B8 /* HomeController.swift */,
+				A511C9A4214D276F004FE4B8 /* TabBarScreenController.swift */,
+				A511C9A0214D276E004FE4B8 /* ViewController.swift */,
 				A5EB2C8F214CB16A006AF614 /* Assets.xcassets */,
 				A5EB2C91214CB16A006AF614 /* LaunchScreen.storyboard */,
 				A5EB2C94214CB16A006AF614 /* Info.plist */,
@@ -295,6 +310,7 @@
 				A5EB2C89214CB168006AF614 /* art.scnassets in Resources */,
 				A5EB2C93214CB16A006AF614 /* LaunchScreen.storyboard in Resources */,
 				A5EB2C90214CB16A006AF614 /* Assets.xcassets in Resources */,
+				A511C9A8214D276F004FE4B8 /* CardView.sks in Resources */,
 				A5EB2C8E214CB168006AF614 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,9 +416,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FE530A6214D1E9300DF3BAB /* SettingsController.swift in Sources */,
+				A511C9A9214D276F004FE4B8 /* TabBarScreenController.swift in Sources */,
 				A5EB2C8B214CB168006AF614 /* ARController.swift in Sources */,
 				A5EB2C87214CB168006AF614 /* AppDelegate.swift in Sources */,
 				3FE530A0214CCE4B00DF3BAB /* DiscoverController.swift in Sources */,
+				A511C9A5214D276F004FE4B8 /* ViewController.swift in Sources */,
+				A511C9A7214D276F004FE4B8 /* HomeController.swift in Sources */,
+				A511C9A6214D276F004FE4B8 /* ClassObjects.swift in Sources */,
 				3FE530A4214CD7FB00DF3BAB /* TableViewCell.swift in Sources */,
 				3FE530A2214CD79B00DF3BAB /* Helpers.swift in Sources */,
 			);
