@@ -51,6 +51,7 @@ For the financial side to the app, we hope to integrate bank APIs such as Capita
 ***Designer Info***
 
 Jamal Rasool | @trujamal
+Aalap Patel  | @aalap07
 
 
 ## iOS support
