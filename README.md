@@ -9,6 +9,13 @@ The app was designed around creating an AR iOS Application that implemented Zill
 and also using Mongo DB for our database. This app allows users to receive basic
 housing information right at your fingertips.
 
+## Demo
+
+<p align="center">
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/5UNDT1B4KtE/0.jpg)](https://www.youtube.com/watch?v=5UNDT1B4KtE&feature=youtu.be "App Demo")
+
+</p>
 
 ## The Goal.
  * The overall goal with the app was to help entice people to learn more about the home buying practices. Also to create freindly habbits for later on in life.
