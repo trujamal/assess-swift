@@ -8,7 +8,6 @@ target 'Athena' do
   # Pods for Athena
   pod 'Kingfisher'
   pod 'SwiftyJSON'
-  pod 'Spring'
 
   target 'AthenaTests' do
     inherit! :search_paths

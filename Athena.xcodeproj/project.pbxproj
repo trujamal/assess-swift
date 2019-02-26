@@ -7,18 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FE530A0214CCE4B00DF3BAB /* DiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5309F214CCE4B00DF3BAB /* DiscoverController.swift */; };
-		3FE530A2214CD79B00DF3BAB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE530A1214CD79B00DF3BAB /* Helpers.swift */; };
-		3FE530A4214CD7FB00DF3BAB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE530A3214CD7FB00DF3BAB /* TableViewCell.swift */; };
+		3F07F4BA214D4FF600DFD08F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F07F4B9214D4FF600DFD08F /* MapKit.framework */; };
+		3F07F4BE214D74C200DFD08F /* sample.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07F4BD214D74C200DFD08F /* sample.jpeg */; };
+		3F07F4C2214D96D600DFD08F /* ARControllerCollectionVW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F07F4C1214D96D600DFD08F /* ARControllerCollectionVW.swift */; };
+		3FC3034E214DE4B9007323D3 /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3034D214DE4B9007323D3 /* VC.swift */; };
 		3FE530A6214D1E9300DF3BAB /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE530A5214D1E9300DF3BAB /* SettingsController.swift */; };
-		3FE530B0214D266400DF3BAB /* backicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE530AF214D266400DF3BAB /* backicon.png */; };
 		62F9DD2F49EFB4B8F1058926 /* Pods_AthenaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D506C87ED294023402F23FA /* Pods_AthenaUITests.framework */; };
 		A260D36332E7184D5B664F9B /* Pods_AthenaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694A8580331A4B506A39E192 /* Pods_AthenaTests.framework */; };
 		A511C9A5214D276F004FE4B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511C9A0214D276E004FE4B8 /* ViewController.swift */; };
 		A511C9A6214D276F004FE4B8 /* ClassObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511C9A1214D276E004FE4B8 /* ClassObjects.swift */; };
-		A511C9A7214D276F004FE4B8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511C9A2214D276F004FE4B8 /* HomeController.swift */; };
-		A511C9A8214D276F004FE4B8 /* CardView.sks in Resources */ = {isa = PBXBuildFile; fileRef = A511C9A3214D276F004FE4B8 /* CardView.sks */; };
-		A511C9A9214D276F004FE4B8 /* TabBarScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511C9A4214D276F004FE4B8 /* TabBarScreenController.swift */; };
 		A5EB2C87214CB168006AF614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB2C86214CB168006AF614 /* AppDelegate.swift */; };
 		A5EB2C89214CB168006AF614 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EB2C88214CB168006AF614 /* art.scnassets */; };
 		A5EB2C8B214CB168006AF614 /* ARController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB2C8A214CB168006AF614 /* ARController.swift */; };
@@ -51,19 +48,16 @@
 		20B7EF3D011FFD405DDF4634 /* Pods-AthenaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AthenaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AthenaUITests/Pods-AthenaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		33B3B774B691A682B469281B /* Pods-AthenaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AthenaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AthenaTests/Pods-AthenaTests.release.xcconfig"; sourceTree = "<group>"; };
 		3C4CF29C55AB3E7E012547FA /* Pods-Athena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Athena.release.xcconfig"; path = "Pods/Target Support Files/Pods-Athena/Pods-Athena.release.xcconfig"; sourceTree = "<group>"; };
-		3FE5309F214CCE4B00DF3BAB /* DiscoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverController.swift; sourceTree = "<group>"; };
-		3FE530A1214CD79B00DF3BAB /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		3FE530A3214CD7FB00DF3BAB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3F07F4B9214D4FF600DFD08F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F07F4BD214D74C200DFD08F /* sample.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpeg; sourceTree = "<group>"; };
+		3F07F4C1214D96D600DFD08F /* ARControllerCollectionVW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARControllerCollectionVW.swift; sourceTree = "<group>"; };
+		3FC3034D214DE4B9007323D3 /* VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
 		3FE530A5214D1E9300DF3BAB /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
-		3FE530AF214D266400DF3BAB /* backicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backicon.png; sourceTree = "<group>"; };
 		562688504CE2D98DA116A05C /* Pods-Athena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Athena.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Athena/Pods-Athena.debug.xcconfig"; sourceTree = "<group>"; };
 		694A8580331A4B506A39E192 /* Pods_AthenaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AthenaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D506C87ED294023402F23FA /* Pods_AthenaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AthenaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A511C9A0214D276E004FE4B8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A511C9A1214D276E004FE4B8 /* ClassObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassObjects.swift; sourceTree = "<group>"; };
-		A511C9A2214D276F004FE4B8 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
-		A511C9A3214D276F004FE4B8 /* CardView.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CardView.sks; sourceTree = "<group>"; };
-		A511C9A4214D276F004FE4B8 /* TabBarScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarScreenController.swift; sourceTree = "<group>"; };
 		A5EB2C83214CB168006AF614 /* Athena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Athena.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EB2C86214CB168006AF614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5EB2C88214CB168006AF614 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -88,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F07F4BA214D4FF600DFD08F /* MapKit.framework in Frameworks */,
 				C5B92B49BEA9C902B4072C82 /* Pods_Athena.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,6 +119,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A5CB2CF5214E893E007A1AD4 /* AR Kit Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F07F4C1214D96D600DFD08F /* ARControllerCollectionVW.swift */,
+				A5EB2C8A214CB168006AF614 /* ARController.swift */,
+			);
+			path = "AR Kit Controller";
+			sourceTree = "<group>";
+		};
+		A5CB2CF6214E8955007A1AD4 /* Secondary Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3FE530A5214D1E9300DF3BAB /* SettingsController.swift */,
+				A511C9A1214D276E004FE4B8 /* ClassObjects.swift */,
+				A511C9A0214D276E004FE4B8 /* ViewController.swift */,
+				3FC3034D214DE4B9007323D3 /* VC.swift */,
+			);
+			path = "Secondary Classes";
+			sourceTree = "<group>";
+		};
 		A5EB2C7A214CB168006AF614 = {
 			isa = PBXGroup;
 			children = (
@@ -149,23 +164,15 @@
 		A5EB2C85214CB168006AF614 /* Athena */ = {
 			isa = PBXGroup;
 			children = (
+				A5CB2CF5214E893E007A1AD4 /* AR Kit Controller */,
 				A5EB2C86214CB168006AF614 /* AppDelegate.swift */,
 				A5EB2C88214CB168006AF614 /* art.scnassets */,
-				A5EB2C8A214CB168006AF614 /* ARController.swift */,
 				A5EB2C8C214CB168006AF614 /* Main.storyboard */,
-				3FE530A5214D1E9300DF3BAB /* SettingsController.swift */,
-				3FE530A3214CD7FB00DF3BAB /* TableViewCell.swift */,
-				3FE530A1214CD79B00DF3BAB /* Helpers.swift */,
-				3FE5309F214CCE4B00DF3BAB /* DiscoverController.swift */,
-				A511C9A3214D276F004FE4B8 /* CardView.sks */,
-				A511C9A1214D276E004FE4B8 /* ClassObjects.swift */,
-				A511C9A2214D276F004FE4B8 /* HomeController.swift */,
-				A511C9A4214D276F004FE4B8 /* TabBarScreenController.swift */,
-				A511C9A0214D276E004FE4B8 /* ViewController.swift */,
+				A5CB2CF6214E8955007A1AD4 /* Secondary Classes */,
 				A5EB2C8F214CB16A006AF614 /* Assets.xcassets */,
+				3F07F4BD214D74C200DFD08F /* sample.jpeg */,
 				A5EB2C91214CB16A006AF614 /* LaunchScreen.storyboard */,
 				A5EB2C94214CB16A006AF614 /* Info.plist */,
-				3FE530AF214D266400DF3BAB /* backicon.png */,
 			);
 			path = Athena;
 			sourceTree = "<group>";
@@ -191,6 +198,7 @@
 		B5FF3BB328F4C427ABDCAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F07F4B9214D4FF600DFD08F /* MapKit.framework */,
 				B7708D55FAE00C8983725636 /* Pods_Athena.framework */,
 				694A8580331A4B506A39E192 /* Pods_AthenaTests.framework */,
 				7D506C87ED294023402F23FA /* Pods_AthenaUITests.framework */,
@@ -270,6 +278,11 @@
 				TargetAttributes = {
 					A5EB2C82214CB168006AF614 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					A5EB2C98214CB16A006AF614 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -306,11 +319,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FE530B0214D266400DF3BAB /* backicon.png in Resources */,
+				3F07F4BE214D74C200DFD08F /* sample.jpeg in Resources */,
 				A5EB2C89214CB168006AF614 /* art.scnassets in Resources */,
 				A5EB2C93214CB16A006AF614 /* LaunchScreen.storyboard in Resources */,
 				A5EB2C90214CB16A006AF614 /* Assets.xcassets in Resources */,
-				A511C9A8214D276F004FE4B8 /* CardView.sks in Resources */,
 				A5EB2C8E214CB168006AF614 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,13 +352,11 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Athena/Pods-Athena-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,15 +426,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FE530A6214D1E9300DF3BAB /* SettingsController.swift in Sources */,
-				A511C9A9214D276F004FE4B8 /* TabBarScreenController.swift in Sources */,
 				A5EB2C8B214CB168006AF614 /* ARController.swift in Sources */,
 				A5EB2C87214CB168006AF614 /* AppDelegate.swift in Sources */,
-				3FE530A0214CCE4B00DF3BAB /* DiscoverController.swift in Sources */,
+				3FC3034E214DE4B9007323D3 /* VC.swift in Sources */,
+				3F07F4C2214D96D600DFD08F /* ARControllerCollectionVW.swift in Sources */,
 				A511C9A5214D276F004FE4B8 /* ViewController.swift in Sources */,
-				A511C9A7214D276F004FE4B8 /* HomeController.swift in Sources */,
 				A511C9A6214D276F004FE4B8 /* ClassObjects.swift in Sources */,
-				3FE530A4214CD7FB00DF3BAB /* TableViewCell.swift in Sources */,
-				3FE530A2214CD79B00DF3BAB /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +605,7 @@
 			baseConfigurationReference = 562688504CE2D98DA116A05C /* Pods-Athena.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3LJY7XDPRA;
 				INFOPLIST_FILE = Athena/Info.plist;
@@ -617,6 +625,7 @@
 			baseConfigurationReference = 3C4CF29C55AB3E7E012547FA /* Pods-Athena.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3LJY7XDPRA;
 				INFOPLIST_FILE = Athena/Info.plist;
